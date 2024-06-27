@@ -45,7 +45,11 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
     //ActiveMQ
     implementation 'org.springframework.boot:spring-boot-starter-activemq'
-
+    //h2
+    implementation 'com.h2database:h2'
+    //MongoDB
+    implementation ('org.springframework.boot:spring-boot-starter-data-mongodb')
+    implementation ('org.springframework.boot:spring-boot-starter-data-mongodb-reactive:1.10.11.')
 }
 
 dependencyManagement {

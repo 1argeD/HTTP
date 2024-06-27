@@ -50,6 +50,9 @@ dependencies {
     //MongoDB
     implementation ('org.springframework.boot:spring-boot-starter-data-mongodb')
     implementation ('org.springframework.boot:spring-boot-starter-data-mongodb-reactive:1.10.11.')
+    //sendGrid : 이메일 전송기능
+    implementation 'com.sendgrid:sendgrid-java:4.10.2'
+
 }
 
 dependencyManagement {
